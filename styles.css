@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: orange; /* Colore arancione per lo sfondo */
+}
+
+.container {
+  text-align: center;
+  background-color: white; /* Colore di sfondo per il contenitore principale */
+  padding: 20px; /* Spazio intorno al contenuto */
+  border-radius: 10px; /* Bordo arrotondato per il contenitore */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+}
+
+.buttons {
+  margin-top: 20px; /* Spazio sopra i pulsanti */
+}
+
+#yesButton, #noButton {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+#message {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
